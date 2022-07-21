@@ -85,9 +85,6 @@ struct ContentView: View {
                 
             }
             .navigationTitle("BetterRest")
-            .toolbar {
-                Button("Calculate", action: calculateBedtime)
-            }
             .task {
                 calculateBedtime()
             }
